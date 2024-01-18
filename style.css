@@ -153,3 +153,35 @@ a {
   font-weight: 700;
   font-size: 24px;
 }
+
+.cta {
+  padding: 208px;
+}
+
+.cta_content {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  padding: 112px 121px;
+  border-radius: 16px;
+  color: #f9faf8;
+}
+
+.cta_content button {
+  padding: 0 32px;
+  background-color: transparent;
+  border: 2px solid #f9faf8;
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 16px;
+}
+
+.cta_text h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.cta_text p {
+  font-size: 18px;
+}
