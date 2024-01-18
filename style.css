@@ -105,6 +105,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 32px;
+  margin-bottom: 120px;
 }
 
 .main_content h2 {
@@ -127,4 +128,28 @@ a {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+.quotes {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  padding: 36px 0;
+}
+
+.quotes_content {
+  width: 900px;
+}
+
+.text {
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 200;
+  color: #1f2937;
+}
+
+.bold {
+  text-align: right;
+  font-weight: 700;
+  font-size: 24px;
 }
