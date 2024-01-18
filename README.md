@@ -2,7 +2,7 @@
 
 Hello! This is a project from one of the courses in The Odin Project that I am currently doing.
 
-Photos & Images in this project are from Pexel:
+Photos & Images in this project are from pexels:
 
 Photo by Rui Neves:
 
