@@ -1,0 +1,94 @@
+/*Basic Reset*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.2;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+}
+
+/* Actual code */
+header,
+footer {
+  background-color: #1f2937;
+}
+
+header {
+  padding: 22px 205px 133px;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.primaryNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.primaryNav p {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  margin-top: 124px;
+  gap: 24px;
+}
+
+.hero_content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hero_content h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.hero_content p,
+.primaryNav a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero_content button {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 16px;
+  padding: 16px 24px;
+  color: #f9faf8;
+
+  font-size: 18px;
+  font-weight: 700;
+  width: 160px;
+}
