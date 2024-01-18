@@ -54,19 +54,25 @@ a {
 .primaryNav p {
   font-size: 24px;
   color: #f9faf8;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .container {
   display: flex;
   margin-top: 124px;
   gap: 24px;
+  width: 100%;
+}
+
+.container img {
+  width: 50%;
 }
 
 .hero_content {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  width: 50%;
 }
 
 .hero_content h1 {
